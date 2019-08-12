@@ -9,8 +9,8 @@ go get lukechampine.com/geiger
 ```
 
 Inspired by [this tweet](https://twitter.com/laserallan/status/1159571592332087296).
-Just call `go geiger.Count()` at the top of your `main` function to be subjected
-to an annoying high-pitched tone when your program allocates too much.
+Just call `go geiger.Count()` at the top of your `main` function. Don't worry, if
+you start tasting metal, you're probably just delusional.
 
 This package is in a pretty unpolished state. ~~First of all, it emits a constant
 tone, not a series of clicks like a real Geiger counter, because I couldn't
