@@ -12,9 +12,9 @@ Inspired by [this tweet](https://twitter.com/laserallan/status/11595715923320872
 Just call `go geiger.Count()` at the top of your `main` function to be subjected
 to an annoying high-pitched tone when your program allocates too much.
 
-This package is in a pretty unpolished state. First of all, it emits a constant
+This package is in a pretty unpolished state. ~~First of all, it emits a constant
 tone, not a series of clicks like a real Geiger counter, because I couldn't
-figure out how to get the `beep` package to click the way I wanted. Second, the
+figure out how to get the `beep` package to click the way I wanted.~~ (EDIT: [fixed, thanks @klauspost!](https://github.com/lukechampine/geiger/pull/1)) Second, the
 package itself incurs a non-zero number of allocations per second (~100 on
 MacOS, presumably different on other platforms) which throws off the reading.
 Third, it's completely unconfigurable: you can't adjust the "sensitivity," and
