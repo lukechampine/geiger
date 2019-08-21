@@ -24,3 +24,10 @@ e.g., the number of *bytes* allocated per second).
 Still, I think the general idea of "use sound to alert the programmer that
 they're doing something stupid" has merit. If enough people agree, maybe we can
 work together to refine it into an actually useful tool.
+
+### Troubleshooting
+
+This package uses [beep](https://github.com/faiface/beep) to play audio. If you
+can't hear anything, please check the `beep` issue tracker (and open issues there,
+if necessary) rather than on this repo. I know basically nothing about audio
+interfaces, so I'm not going to be able to help you!
